@@ -31,7 +31,7 @@ import Brands from "../pages/Brands";
 import GiftCertificates from "../pages/Account/GiftCertificates";
 import SpecialOffers from "../pages/SpecialOffers";
 // import SiteMap from "../pages/SiteMap";
-import Cart from "../pages/cart/Cart";
+import Cart from "../pages/Cart/Cart.jsx";
 import AccountPage from "../outlets/AccountPage";
 import CatalogPage from "../outlets/CatalogPage";
 import Category from "../pages/Category";
