@@ -36,7 +36,7 @@ function Carousel() {
   return (
     <CarouselProvider
       naturalSlideWidth={100}
-      naturalSlideHeight={30}
+      naturalSlideHeight={35}
       totalSlides={totalSlides}
     >
       <Slider className="shadow-md border">
