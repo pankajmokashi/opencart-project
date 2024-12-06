@@ -4,53 +4,62 @@ import { Link } from "react-router-dom";
 const categories = [
   {
     name: "Desktop",
-    href: "/desktop",
+    href: "/catalog/desktop",
     children: [
       {
         name: "PC",
+        href: "/catalog/desktop/PC",
       },
       {
         name: "MAC",
+        href: "/catalog/desktop/MAC",
       },
     ],
   },
   {
     name: "Laptops & Notebooks",
-    href: "/laptops-notebooks",
+    href: "/catalog/laptops-notebooks",
     children: [
       {
         name: "MACS",
+        href: "/catalog/laptops-notebooks/MACS",
       },
       {
         name: "WINDOWs",
+        href: "/catalog/laptops-notebooks/WINDOWS",
       },
     ],
   },
   {
     name: "Components",
-    href: "/components",
+    href: "/catalog/components",
     children: [
       {
         name: "Mice & Trackballs",
+        href: "/catalog/components/mice-trackballs",
       },
       {
         name: "Monitors",
+        href: "/catalog/components/monitors",
       },
       {
         name: "Printers",
+        href: "/catalog/components/printers",
       },
       {
         name: "Scanners",
+        href: "/catalog/components/scanners",
       },
       {
         name: "Web Cameras",
+        href: "/catalog/components/web-cameras",
       },
     ],
   },
-  { name: "Tablets", href: "/tablets" },
-  { name: "Softwares", href: "/softwares" },
-  { name: "Phones & PDAs", href: "/phones-pdas" },
-  { name: "Cameras", href: "/cameras" },
+  { name: "Tablets", href: "/catalog/tablets" },
+  { name: "Softwares", href: "/catalog/softwares" },
+  { name: "Phones & PDAs", href: "/catalog/phones-pdas" },
+  { name: "Cameras", href: "/catalog/cameras" },
 ];
 
 function MobileMenu() {
