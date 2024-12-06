@@ -1,47 +1,36 @@
-import { Link } from "react-router-dom";
+import BackButton from "../../components/BackButton";
+import ContinueButton from "../../components/ContinueButton";
+import InputDiv from "../../components/InputDiv";
 
 function ChangePassword() {
   return (
     <div>
-      <h1>Forgot Your Password?</h1>
-      <p>
-        Enter the e-mail address associated with your account. Click submit to
-        have a password reset link e-mailed to you.
-      </p>
-      <form className="py-4">
-        <h4 className="py-2 border-b-2 text-xl">Your E-Mail Address</h4>
-        <div className="flex flex-col sm:flex-row my-4">
-          <label
-            htmlFor="email"
-            className="min-w-[150px] lg:min-w-[250px] py-1 sm:py-0"
-          >
-            E-Mail
-          </label>
-          <div className="w-full">
-            <input
-              type="email"
-              placeholder="E-mail"
-              name="email"
-              id="email"
-              autoComplete="no"
-              className="w-full max-w-xl px-4 py-1 border-2 outline-none text-[#444]"
-            />
-          </div>
-        </div>
-        <div className="flex justify-between">
-          <Link
-            to="/account"
-            className="px-4 py-2 text-sm rounded-sm bg-slate-200 text-black border hover:border-slate-300 shadow-md"
-          >
-            Back
-          </Link>
-          <input
-            type="submit"
-            value="Continue"
-            className="px-4 py-2 text-sm bg-nav-blue rounded-sm text-white hover:text-black cursor-pointer"
+      <h1 className="text-2xl sm:text-3xl font-medium text-[#444]">
+        My Account Information
+      </h1>
+      <div className="mt-4 text-[#666]">
+        <h2 className="pb-1 text-lg sm:text-xl border-b border-[#e5e5e5]">
+          Your Personal Details
+        </h2>
+        <form className="sm:px-4 mt-4 flex flex-col gap-4">
+          <InputDiv
+            label="Password"
+            name="password"
+            type="password"
+            placeholder="Password"
           />
-        </div>
-      </form>
+          <InputDiv
+            label="Confirm Password"
+            name="confirmPassword"
+            type="password"
+            placeholder="Confirm Password"
+          />
+          <div className="pt-2 flex justify-between ">
+            <BackButton />
+            <ContinueButton />
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

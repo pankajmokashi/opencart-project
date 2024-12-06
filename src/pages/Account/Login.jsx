@@ -19,33 +19,35 @@ function Login() {
     <div>
       <div className="grid gap-6 sm:grid-cols-2">
         <div className="p-4 border">
-          <h2 className="text-3xl mb-1">New Customer</h2>
-          <p className="text-sm font-medium mb-2">Register Account </p>
-          <p className="text-sm mb-4">
+          <h2 className="mb-1 text-2xl sm:text-3xl font-medium text-[#444]">
+            New Customer
+          </h2>
+          <p className="mb-2 text-xs font-medium text-[#666]">
+            Register Account
+          </p>
+          <p className="mb-4 text-xs text-[#666]">
             By creating an account you will be able to shop faster, be up to
             date on an order&apos;s status, and keep track of the orders you
             have previously made.
           </p>
           <div className="flex justify-end">
-            <Link
-              to="/account/register"
-              className="px-4 py-2 text-sm bg-nav-blue rounded-sm text-white hover:text-black cursor-pointer"
-            >
-              Continue
+            <Link to="/account/register">
+              <button className="px-4 py-2 text-xs border rounded-md bg-nav-blue text-white hover:text-black">
+                Continue
+              </button>
             </Link>
           </div>
         </div>
         <div className="p-4 border">
-          <h2 className="text-3xl mb-1">Returning Customer</h2>
-          <p className="text-sm font-medium mb-2">I am a returning customer</p>
-          <form>
-            <div className="flex gap-1 flex-col mb-4">
-              <label
-                htmlFor="email"
-                className="min-w-[150px] lg:min-w-[250px] py-1 sm:py-0"
-              >
-                E-Mail
-              </label>
+          <h2 className="mb-1 text-2xl sm:text-3xl font-medium text-[#444]">
+            Returning Customer
+          </h2>
+          <p className="mb-2 text-xs font-medium text-[#666]">
+            I am a returning customer
+          </p>
+          <form className="mt-4 flex flex-col gap-4 text-[#666]">
+            <div className="flex gap-1 flex-col">
+              <label htmlFor="email">E-Mail</label>
               <div className="w-full">
                 <input
                   type="email"
@@ -53,17 +55,12 @@ function Login() {
                   name="email"
                   id="email"
                   autoComplete="no"
-                  className="w-full max-w-xl px-4 py-1 border-2 outline-none text-[#444]"
+                  className="p-2 w-full rounded-md border border-[#e5e5e5]"
                 />
               </div>
             </div>
             <div className="flex gap-1 flex-col mb-4">
-              <label
-                htmlFor="password"
-                className="min-w-[150px] lg:min-w-[250px] py-1 sm:py-0"
-              >
-                Password
-              </label>
+              <label htmlFor="password">Password</label>
               <div className="w-full">
                 <input
                   type="text"
@@ -71,17 +68,19 @@ function Login() {
                   name="password"
                   id="password"
                   autoComplete="no"
-                  className="w-full max-w-xl px-4 py-1 border-2 outline-none text-[#444]"
+                  className="p-2 w-full rounded-md border border-[#e5e5e5]"
                 />
-                <Link className="text-sm text-nav-blue" to="#">Forgotten Password</Link>
+                <Link className="text-xs text-nav-blue">
+                  Forgotten Password
+                </Link>
               </div>
               <div className="flex justify-end">
-                <input
-                  type="submit"
-                  value="Login"
+                <button
                   onClick={login}
-                  className="px-4 py-2 text-sm bg-nav-blue rounded-sm text-white hover:text-black cursor-pointer"
-                />
+                  className="px-4 py-2 text-xs border rounded-md bg-nav-blue text-white hover:text-black"
+                >
+                  Login
+                </button>
               </div>
             </div>
           </form>
