@@ -1,4 +1,5 @@
 import Breadcrumbs from "../components/Breadcrumbs";
+import InputDiv from "../components/InputDiv";
 
 function CantactUs() {
   return (
@@ -7,82 +8,56 @@ function CantactUs() {
         <Breadcrumbs />
       </div>
       <div className="text-[#444]">
-        <h1 className="text-4xl mb-3">Cantact Us</h1>
-        <h3 className="text-xl mb-2">Our Locations</h3>
-        <div className="p-4 mb-2 text-xs border-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <h1 className="text-2xl sm:text-3xl font-medium text-[#444]">
+          Cantact Us
+        </h1>
+        <h2 className="text-xl mt-4">Our Locations</h2>
+        <div className="p-4 my-2 text-xs border-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h5 className="mb-2 text-black font-medium">Your Store</h5>
+            <h2 className="mb-2 text-black font-medium">Your Store</h2>
             <p className="mb-3">Address 1</p>
           </div>
           <div>
-            <h5 className="mb-2 text-black font-medium">Telephone</h5>
+            <h2 className="mb-2 text-black font-medium">Telephone</h2>
             <p className="mb-3">123456789</p>
           </div>
           <div></div>
           <div></div>
         </div>
-        <div className="text-mid-gray">
-          <h4 className="py-2 border-b-2 text-xl">Contact Form</h4>
-          <form className="py-4">
-            <div className="flex flex-col sm:flex-row sm:items-center mb-4">
-              <label
-                htmlFor="name"
-                className="min-w-[150px] lg:min-w-[250px] py-1 sm:py-0"
-              >
-                Your Name
-              </label>
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  autoComplete="no"
-                  className="w-full max-w-xl px-4 py-1 border-2 outline-none text-[#444]"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row mb-4">
-              <label
-                htmlFor="email"
-                className="min-w-[150px] lg:min-w-[250px] py-1 sm:py-0"
-              >
-                E-Mail Address
-              </label>
-              <div className="w-full">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  autoComplete="no"
-                  className="w-full max-w-xl px-4 py-1 border-2 outline-none text-[#444]"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row mb-4">
-              <label
-                htmlFor="enquiry"
-                className="min-w-[150px] lg:min-w-[250px] py-1 sm:py-0"
-              >
+        <div className="mt-4 text-[#666]">
+          <h2 className="pb-1 text-lg sm:text-xl border-b border-[#e5e5e5]">
+            Your Personal Details
+          </h2>
+          <form className="sm:px-4 mt-4 flex flex-col gap-4">
+            <InputDiv
+              label="Your Name"
+              name="name"
+              type="text"
+              placeholder="Your Name"
+            />
+            <InputDiv
+              label="E-mail"
+              name="email"
+              type="email"
+              placeholder="E-mail"
+            />
+            <div className="text-xs sm:text-sm lg:text-base flex flex-col lg:flex-row gap-2 lg:items-center">
+              <label htmlFor="enquiry" className="lg:min-w-[200px]">
                 Enquiry
               </label>
-              <div className="w-full">
-                <textarea
-                  name="enquiry"
-                  id="enquiry"
-                  rows={10}
-                  className="w-full max-w-xl p-4 border-2 outline-none text-[#444]"
-                ></textarea>
-              </div>
+              <textarea
+                rows={5}
+                name="enquiry"
+                id="enquiry"
+                placeholder="Enquiry"
+                className="p-2 w-full rounded-md border border-[#e5e5e5]"
+                autoComplete="off"
+              />
             </div>
-            <div className="flex flex-col sm:flex-row mb-4">
-              <div className="min-w-[250px]"></div>
-              <div className="w-full max-w-xl flex justify-end">
-                <input
-                  type="submit"
-                  value="Submit"
-                  className="px-4 py-2 text-sm bg-nav-blue rounded-sm text-white hover:text-black cursor-pointer"
-                />
-              </div>
+            <div className="pt-2 flex justify-end">
+              <button className="px-4 py-2 text-xs sm:text-sm lg:text-base border rounded-md bg-nav-blue text-white hover:text-black">
+                Submit
+              </button>
             </div>
           </form>
         </div>
