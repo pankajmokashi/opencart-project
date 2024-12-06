@@ -2,6 +2,7 @@ import { useContext, useEffect } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import InputDiv from "../../components/InputDiv";
+import Switch from "../../components/Switch";
 
 function Register() {
   const { isAuthenticated, login, redirectPath, setRedirectPath } =
@@ -59,24 +60,17 @@ function Register() {
           <h2 className="pb-1 text-lg sm:text-xl border-b border-[#e5e5e5]">
             Newsletter
           </h2>
-          <div className="">
-            <label className="inline-flex items-center cursor-pointer">
-              <input type="checkbox" value="" className="sr-only peer" />
-              <span className="mr-3 text-sm text-[#666]">Subscribe</span>
-              <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-            </label>
+          <div>
+            <Switch label="Subscribe" name="subscribe" />
           </div>
-          <div className="pt-4 flex justify-end">
-            <div className="w-full flex flex-col sm:flex-row sm:items-center gap-3">
-              <div className="flex items-center gap-3">
-                <p className="text-xs">
+          <div className="pt-4">
+            <div className="w-full flex flex-col sm:flex-row sm:items-center justify-end gap-3">
+              <div className="flex items-center">
+                <p className="text-[10px] sm:text-xs">
                   I have read and agree to the Privacy Policy
                 </p>
-                <div className="flex items-center">
-                  <label className="inline-flex items-center cursor-pointer">
-                    <input type="checkbox" value="" className="sr-only peer" />
-                    <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 scale-90"></div>
-                  </label>
+                <div className="flex items-center scale-100 sm:scale-90">
+                  <Switch label="" name="privacy" />
                 </div>
               </div>
 
