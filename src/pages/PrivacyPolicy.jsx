@@ -7,8 +7,10 @@ function PrivacyPolicy() {
         <Breadcrumbs />
       </div>
       <div>
-        <h1 className="text-3xl mb-2">Privacy Policy</h1>
-        <p className="text-sm">Privacy Policy</p>
+        <h1 className="text-2xl sm:text-3xl font-medium text-[#444] mb-4">
+          Privacy Policy
+        </h1>
+        <p className="text-sm text-[#666]">Privacy Policy</p>
       </div>
     </div>
   );

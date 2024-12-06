@@ -7,8 +7,10 @@ function DeliveryInformation() {
         <Breadcrumbs />
       </div>
       <div>
-        <h1 className="text-3xl mb-2">Delivery Information</h1>
-        <p className="text-sm">Delivery Information</p>
+        <h1 className="text-2xl sm:text-3xl font-medium text-[#444] mb-4">
+          Delivery Information
+        </h1>
+        <p className="text-sm text-[#666]">Delivery Information</p>
       </div>
     </div>
   );
