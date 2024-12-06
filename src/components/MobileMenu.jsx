@@ -91,6 +91,12 @@ function MobileMenu() {
                         {child.name}
                       </Link>
                     ))}
+                    <Link
+                      to={item.href}
+                      className="border-t block px-4 py-2 text-xs text-nav-blue hover:bg-nav-blue hover:text-white"
+                    >
+                      Show All {item.name}
+                    </Link>
                   </div>
                 </div>
               )}
