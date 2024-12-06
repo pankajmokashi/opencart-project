@@ -1,0 +1,314 @@
+[
+  {
+    "general": {
+      "name": "Desktops",
+      "description": "Category for all desktop computers.",
+      "meta_title": "Desktops - Your Store",
+      "meta_description": "Explore our wide range of desktops.",
+      "meta_keywords": "desktops, pc, mac",
+      "store": [0],
+      "image": "/catalog/desktop.avif",
+      "sort_order": 1,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    },
+    "subcategories": [
+      {
+        "general": {
+          "name": "PC",
+          "description": "Category for PCs.",
+          "meta_title": "PC - Your Store",
+          "meta_description": "Explore PC options.",
+          "meta_keywords": "pc, desktops",
+          "store": [0],
+          "image": "catalog/desktop.avif",
+          "sort_order": 1,
+          "status": true
+        },
+        "data": {
+          "parent_category": "Desktops",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      },
+      {
+        "general": {
+          "name": "Mac",
+          "description": "Category for Mac computers.",
+          "meta_title": "Mac - Your Store",
+          "meta_description": "Discover Mac models.",
+          "meta_keywords": "mac, desktops",
+          "store": [0],
+          "image": "/catalog/mac.jpg",
+          "sort_order": 2,
+          "status": true
+        },
+        "data": {
+          "parent_category": "Desktops",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      }
+    ]
+  },
+  {
+    "general": {
+      "name": "Laptops & Notebooks",
+      "description": "Category for laptops and notebooks.",
+      "meta_title": "Laptops & Notebooks - Your Store",
+      "meta_description": "Browse laptops and notebooks.",
+      "meta_keywords": "laptops, notebooks",
+      "store": [0],
+      "image": "/catalog/laptops.jpg",
+      "sort_order": 2,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    },
+    "subcategories": [
+      {
+        "general": {
+          "name": "Macs",
+          "description": "Mac laptops and notebooks.",
+          "meta_title": "Macs - Your Store",
+          "meta_description": "Explore Mac laptops.",
+          "meta_keywords": "mac, laptops",
+          "store": [0],
+          "image": "/catalog/mac_laptops.jpg",
+          "sort_order": 1,
+          "status": true
+        },
+        "data": {
+          "parent_category": "Laptops & Notebooks",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      },
+      {
+        "general": {
+          "name": "Windows",
+          "description": "Windows laptops and notebooks.",
+          "meta_title": "Windows - Your Store",
+          "meta_description": "Explore Windows laptops.",
+          "meta_keywords": "windows, laptops",
+          "store": [0],
+          "image": "/public/catalog/windows_laptops.jpg",
+          "sort_order": 2,
+          "status": true
+        },
+        "data": {
+          "parent_category": "Laptops & Notebooks",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      }
+    ]
+  },
+  {
+    "general": {
+      "name": "Components",
+      "description": "Hardware components.",
+      "meta_title": "Components - Your Store",
+      "meta_description": "Find computer components.",
+      "meta_keywords": "components, hardware",
+      "store": [0],
+      "image": "catalog/components.jpg",
+      "sort_order": 3,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    },
+    "subcategories": [
+      {
+        "general": {
+          "name": "Mice and Trackballs",
+          "description": "Computer mice and trackballs.",
+          "meta_title": "Mice and Trackballs - Your Store",
+          "meta_description": "Browse mice and trackballs.",
+          "meta_keywords": "mice, trackballs",
+          "store": [0],
+          "image": "catalog/mice.jpg",
+          "sort_order": 1,
+          "status": true
+        },
+        "data": {
+          "parent_category": "Components",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      },
+      {
+        "general": {
+          "name": "Monitors",
+          "description": "Computer monitors.",
+          "meta_title": "Monitors - Your Store",
+          "meta_description": "Explore monitors.",
+          "meta_keywords": "monitors, displays",
+          "store": [0],
+          "image": "catalog/monitors.jpg",
+          "sort_order": 2,
+          "status": true
+        },
+        "data": {
+          "parent_category": "Components",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      }
+    ]
+  },
+  {
+    "general": {
+      "name": "Tablets",
+      "description": "Explore our range of tablets.",
+      "meta_title": "Tablets - Your Store",
+      "meta_description": "Find the best tablets for your needs.",
+      "meta_keywords": "tablets, devices",
+      "store": [0],
+      "image": "catalog/tablets.jpg",
+      "sort_order": 4,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    }
+  },
+  {
+    "general": {
+      "name": "Software",
+      "description": "Software for various needs.",
+      "meta_title": "Software - Your Store",
+      "meta_description": "Browse software options.",
+      "meta_keywords": "software, applications",
+      "store": [0],
+      "image": "catalog/software.jpg",
+      "sort_order": 5,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    }
+  },
+  {
+    "general": {
+      "name": "Phones & PDAs",
+      "description": "Smartphones and PDAs.",
+      "meta_title": "Phones & PDAs - Your Store",
+      "meta_description": "Discover our range of smartphones and PDAs.",
+      "meta_keywords": "phones, PDAs, mobile devices",
+      "store": [0],
+      "image": "catalog/phones_pdas.jpg",
+      "sort_order": 6,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    }
+  },
+  {
+    "general": {
+      "name": "Cameras",
+      "description": "Photography and video cameras.",
+      "meta_title": "Cameras - Your Store",
+      "meta_description": "Explore our selection of cameras.",
+      "meta_keywords": "cameras, photography, video",
+      "store": [0],
+      "image": "catalog/cameras.jpg",
+      "sort_order": 7,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    }
+  },
+  {
+    "general": {
+      "name": "MP3 Players",
+      "description": "MP3 players and audio devices.",
+      "meta_title": "MP3 Players - Your Store",
+      "meta_description": "Discover MP3 players.",
+      "meta_keywords": "mp3 players, audio devices",
+      "store": [0],
+      "image": "catalog/mp3_players.jpg",
+      "sort_order": 8,
+      "status": true
+    },
+    "data": {
+      "parent_category": null,
+      "top": true,
+      "column": 1,
+      "filter": []
+    },
+    "subcategories": [
+      {
+        "general": {
+          "name": "Test 11",
+          "description": "Test category 11.",
+          "meta_title": "Test 11 - Your Store",
+          "meta_description": "Test 11 category.",
+          "meta_keywords": "test, mp3",
+          "store": [0],
+          "image": "catalog/test_11.jpg",
+          "sort_order": 1,
+          "status": true
+        },
+        "data": {
+          "parent_category": "MP3 Players",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      },
+      {
+        "general": {
+          "name": "Test 12",
+          "description": "Test category 12.",
+          "meta_title": "Test 12 - Your Store",
+          "meta_description": "Test 12 category.",
+          "meta_keywords": "test, mp3",
+          "store": [0],
+          "image": "catalog/test_12.jpg",
+          "sort_order": 2,
+          "status": true
+        },
+        "data": {
+          "parent_category": "MP3 Players",
+          "top": false,
+          "column": 0,
+          "filter": []
+        }
+      }
+    ]
+  }
+]

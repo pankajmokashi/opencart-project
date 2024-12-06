@@ -1,0 +1,22 @@
+.text-shadow1 {
+  text-shadow: 0 1px 0 #fff;
+}
+
+.text-shadow2 {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.breadcrumb > li.breadcrumb-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  right: 20px;
+  border-right: 1px solid #d2c7c7;
+  border-bottom: 1px solid #d2c7c7;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

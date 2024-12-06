@@ -1,0 +1,184 @@
+[
+  {
+    "general": {
+      "name": "MacBook",
+      "description": "Intel Core 2 Duo processor powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz.",
+      "meta_title": "MacBook - Your Store",
+      "meta_description": "MacBook with Intel Core 2 Duo processor.",
+      "meta_keywords": "MacBook, laptop, Apple",
+      "tags": ["MacBook", "laptop", "Apple"],
+      "model": "MB001",
+      "sku": "MAC-01",
+      "upc": "123456789012",
+      "ean": "1234567890123",
+      "jan": "12345678901234",
+      "isbn": "123-456-789",
+      "mpn": "MB1234",
+      "location": "Warehouse 1",
+      "manufacturer": "Apple",
+      "categories": ["Laptops & Notebooks", "Macs"],
+      "image": "catalog/macbook.jpg",
+      "additional_images": ["catalog/macbook_1.jpg", "catalog/macbook_2.jpg"],
+      "sort_order": 1,
+      "status": true
+    },
+    "data": {
+      "price": 602.0,
+      "tax_class": "Taxable Goods",
+      "quantity": 100,
+      "minimum_quantity": 1,
+      "subtract_stock": true,
+      "stock_status": "In Stock",
+      "shipping_required": true,
+      "date_available": "2024-11-30",
+      "dimensions": {
+        "length": 34.0,
+        "width": 24.0,
+        "height": 2.0,
+        "length_class": "cm"
+      },
+      "weight": 2.0,
+      "weight_class": "kg",
+      "points": 500,
+      "filters": []
+    }
+  },
+  {
+    "general": {
+      "name": "iPhone",
+      "description": "Revolutionary mobile phone with a stunning design and advanced features.",
+      "meta_title": "iPhone - Your Store",
+      "meta_description": "iPhone with advanced features and sleek design.",
+      "meta_keywords": "iPhone, smartphone, Apple",
+      "tags": ["iPhone", "smartphone", "Apple"],
+      "model": "IP001",
+      "sku": "IPH-01",
+      "upc": "987654321098",
+      "ean": "9876543210987",
+      "jan": "98765432109876",
+      "isbn": "987-654-321",
+      "mpn": "IP1234",
+      "location": "Warehouse 2",
+      "manufacturer": "Apple",
+      "categories": ["Phones & PDAs"],
+      "image": "catalog/iphone.jpg",
+      "additional_images": ["catalog/iphone_1.jpg", "catalog/iphone_2.jpg"],
+      "sort_order": 2,
+      "status": true
+    },
+    "data": {
+      "price": 123.2,
+      "tax_class": "Taxable Goods",
+      "quantity": 200,
+      "minimum_quantity": 1,
+      "subtract_stock": true,
+      "stock_status": "In Stock",
+      "shipping_required": true,
+      "date_available": "2024-11-30",
+      "dimensions": {
+        "length": 15.0,
+        "width": 7.5,
+        "height": 0.8,
+        "length_class": "cm"
+      },
+      "weight": 0.2,
+      "weight_class": "kg",
+      "points": 100,
+      "filters": []
+    }
+  },
+  {
+    "general": {
+      "name": "Canon EOS 5D",
+      "description": "Capture stunning photographs with the Canon EOS 5D, featuring a 24.1 MP resolution.",
+      "meta_title": "Canon EOS 5D - Your Store",
+      "meta_description": "Professional DSLR camera with advanced features.",
+      "meta_keywords": "Canon, EOS 5D, DSLR, camera",
+      "tags": ["Canon", "DSLR", "Camera"],
+      "model": "CEOS5D",
+      "sku": "CAN-01",
+      "upc": "321654987654",
+      "ean": "3216549876543",
+      "jan": "32165498765432",
+      "isbn": "321-654-987",
+      "mpn": "EOS5D123",
+      "location": "Warehouse 1",
+      "manufacturer": "Canon",
+      "categories": ["Cameras"],
+      "image": "catalog/canon_eos_5d.jpg",
+      "additional_images": [
+        "catalog/canon_eos_5d_1.jpg",
+        "catalog/canon_eos_5d_2.jpg"
+      ],
+      "sort_order": 3,
+      "status": true
+    },
+    "data": {
+      "price": 1222.0,
+      "tax_class": "Taxable Goods",
+      "quantity": 50,
+      "minimum_quantity": 1,
+      "subtract_stock": true,
+      "stock_status": "In Stock",
+      "shipping_required": true,
+      "date_available": "2024-11-30",
+      "dimensions": {
+        "length": 14.0,
+        "width": 10.0,
+        "height": 7.5,
+        "length_class": "cm"
+      },
+      "weight": 1.8,
+      "weight_class": "kg",
+      "points": 1000,
+      "filters": []
+    }
+  },
+  {
+    "general": {
+      "name": "Sony VAIO",
+      "description": "The Sony VAIO laptop, designed for performance with a sleek design.",
+      "meta_title": "Sony VAIO - Your Store",
+      "meta_description": "Powerful laptop with advanced processing technology.",
+      "meta_keywords": "Sony, VAIO, laptop",
+      "tags": ["Sony", "VAIO", "laptop"],
+      "model": "SV1234",
+      "sku": "SONY-VAIO",
+      "upc": "654321987654",
+      "ean": "6543219876543",
+      "jan": "65432198765432",
+      "isbn": "654-321-987",
+      "mpn": "VAIO123",
+      "location": "Warehouse 2",
+      "manufacturer": "Sony",
+      "categories": ["Laptops & Notebooks"],
+      "image": "catalog/sony_vaio.jpg",
+      "additional_images": [
+        "catalog/sony_vaio_1.jpg",
+        "catalog/sony_vaio_2.jpg"
+      ],
+      "sort_order": 4,
+      "status": true
+    },
+    "data": {
+      "price": 1202.0,
+      "tax_class": "Taxable Goods",
+      "quantity": 75,
+      "minimum_quantity": 1,
+      "subtract_stock": true,
+      "stock_status": "In Stock",
+      "shipping_required": true,
+      "date_available": "2024-11-30",
+      "dimensions": {
+        "length": 37.0,
+        "width": 25.5,
+        "height": 2.5,
+        "length_class": "cm"
+      },
+      "weight": 2.5,
+      "weight_class": "kg",
+      "points": 750,
+      "filters": []
+    }
+  }
+]
