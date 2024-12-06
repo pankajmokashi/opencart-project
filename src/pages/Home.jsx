@@ -6,7 +6,7 @@ function Home() {
     <div>
       <Carousel />
       <div className="pt-6">
-        <h3 className="text-xl">Featured</h3>
+        <h3 className="text-2xl">Featured</h3>
         <ProductList />
       </div>
     </div>

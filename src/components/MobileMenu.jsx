@@ -62,7 +62,8 @@ const categories = [
   { name: "Cameras", href: "/catalog/cameras" },
 ];
 
-function MobileMenu() {
+// eslint-disable-next-line react/prop-types
+function MobileMenu({ handleLinkClick }) {
   const [dropdownOpen, setDropdownOpen] = useState(null);
 
   const handleMouseEnter = (index) => {
@@ -95,6 +96,7 @@ function MobileMenu() {
                       <Link
                         key={child.name}
                         to={child.href}
+                        onClick={handleLinkClick}
                         className="block px-4 py-2 text-xs hover:bg-nav-blue hover:text-white"
                       >
                         {child.name}
@@ -114,6 +116,7 @@ function MobileMenu() {
             <Link
               key={item.name}
               to={item.href}
+              onClick={handleLinkClick}
               className="px-3 py-3 text-sm hover:bg-dark-blue"
             >
               {item.name}
